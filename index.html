@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="Снимок1.PNG" class="round"> <br>
+    <b># Yazhou Pavel <br>
+
+        ** <br><br>
+        
+        ## Contacts<br>
+        
+        * Location: Gomel, Belarus;<br>
+        * Phone: +375 29 867-11-53;<br>
+        * Email: fadion@bk.ru;<br>
+        * GitHub: EzhovPavel.<br>
+        
+        ** <br><br>
+        
+        ## About Me<br>
+        
+        I work in the SEO team. I am looking for a new way to gain knowledge, experience and earnings. For this purpose, I learned HTML, CSS & JS to try something new.<br>
+        
+        ** <br><br>
+        
+        ## Skills<br>
+        
+        * HTML<br>
+        * CSS/SASS;<br>
+        * JavaScript;<br>
+        * Figma<br>
+        * jQuery<br>
+        * Bootstrap<br>
+        * Git<br>
+        
+        ** <br><br>
+        
+        ## Code Example<br>
+        
+        function hideTabContent() {<br>
+            
+            tabsContent.forEach(item => {<br>
+                item.classList.add('hide');<br>
+                item.classList.remove('show', 'fade');<br>
+            });<br>
+        
+            tabs.forEach(item => {<br>
+                item.classList.remove('tabheader__item_active');<br>
+            });<br>
+        }<br>
+        
+        function showTabContent(i = 0) {<br>
+            tabsContent[i].classList.add('show', 'fade');<br>
+            tabsContent[i].classList.remove('hide');<br>
+            tabs[i].classList.add('tabheader__item_active');<br>
+        }<br>
+        
+        hideTabContent();<br>
+        showTabContent();<br>
+        
+        tabsParent.addEventListener('click', function(event) {<br>
+            const target = event.target;<br>
+            if(target && target.classList.contains('tabheader__item')) {<br>
+                tabs.forEach((item, i) => {<br>
+                    if (target == item) {<br>
+                        hideTabContent();<br>
+                        showTabContent(i);<br>
+                    }<br>
+                });<br>
+            }<br>
+        });<br>
+        
+        
+        ** <br><br>
+        ## Experience<br>
+        
+        Education<br>
+        University: FRANCISK SKORINA GOMEL STATE UNIVERSITY;<br>
+        Courses:<br>
+        IT ACADEMY: HTML, CSS & JS, ADVANCED JS<br>
+        
+        * <br><br>
+        
+        ## English <br>
+        A2</b>
+</body>
+</html>
