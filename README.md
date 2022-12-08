@@ -1,1 +1,1 @@
-ttps://ezhovpavel.github.io/rsschool-cv/
+https://ezhovpavel.github.io/rsschool-cv/
