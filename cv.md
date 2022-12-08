@@ -75,7 +75,7 @@ tabsParent.addEventListener('click', function(event) {
 Education
 University: FRANCISK SKORINA GOMEL STATE UNIVERSITY;
 Courses:
-IT ACADEMY: HTML, CSS & JS, ADVANCED JS.
+IT ACADEMY: HTML, CSS & JS, ADVANCED JS
 
 * 
 
